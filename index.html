@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Added link to the jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron bg-dark">
+            <h1> RPG Game </h1>
+            <p>Choose your Hero!</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 bg-warning" id="battleground">
+                <div class="row">
+
+
+                    <div class="card col-5 bg-light battlecard" id="heroes-choice">
+                        <div class="card-image">
+                        <img class="card-img-top"
+                            src="https://66.media.tumblr.com/dc55f730641ee787c5e4e09d24929076/tumblr_mt52km7C031r3maj7o1_400.gif"
+                            alt="Hero's image" id="heroes-image">
+                        </div>
+                        <div class="card-body">
+                            <button class="btn btn-lg btn-dark">Attack</button>
+                        </div>
+                    </div>
+
+                    <div class="card col-2 bg=secondary battlecard" id="game-updates"></div>
+
+
+                    <div class="card col-5 bg-light battlecard" id="enemys-choice">
+                        <div class="card-image">
+                        <img class="card-img-top"
+                            src="https://media1.tenor.com/images/1a64b6478237b189d0eef10ff5f2a412/tenor.gif?itemid=13187048"
+                            alt="Enemy's image" id="heroes-image">
+                        </div>
+                        <div class="card-body">
+                            <button class="btn btn-lg btn-dark">Attack</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card col-md-6 bg-primary" id="heroes">
+                <div class="row">
+                    <div class="card col-3 hero bg-info" id="hero-1">
+                        <img class="card-img-top hero-small"
+                            src="https://66.media.tumblr.com/dc55f730641ee787c5e4e09d24929076/tumblr_mt52km7C031r3maj7o1_400.gif"
+                            alt="Hero's image" id="hero1-image">
+                        <p class="hero-text">Goku</p>
+                    </div>
+
+                    <div class="card col-3 hero bg-info" id="hero-2">
+                        <img class="card-img-top hero-small"
+                            src="https://66.media.tumblr.com/dc55f730641ee787c5e4e09d24929076/tumblr_mt52km7C031r3maj7o1_400.gif"
+                            alt="Hero's image" id="hero2-image">
+                        <p class="hero-text">Goku</p>
+                    </div>
+                    <div class="card col-3 hero bg-info" id="hero-3">
+                        <img class="card-img-top hero-small"
+                            src="https://66.media.tumblr.com/dc55f730641ee787c5e4e09d24929076/tumblr_mt52km7C031r3maj7o1_400.gif"
+                            alt="Hero's image" id="hero3-image">
+                        <p class="hero-text">Goku</p>
+                    </div>
+                    <div class="card col-3 hero bg-info" id="hero-4">
+                        <img class="card-img-top hero-small"
+                            src="https://66.media.tumblr.com/dc55f730641ee787c5e4e09d24929076/tumblr_mt52km7C031r3maj7o1_400.gif"
+                            alt="Hero's image" id="hero4-image">
+                        <p class="hero-text">Goku</p>
+                    </div>
+                    <div class="card col-3 hero bg-info" id="hero-5">
+                        <img class="card-img-top hero-small"
+                            src="https://66.media.tumblr.com/dc55f730641ee787c5e4e09d24929076/tumblr_mt52km7C031r3maj7o1_400.gif"
+                            alt="Hero's image" id="hero5-image">
+                        <p class="hero-text">Goku</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card col-md-6 bg-alert" id="enemies">
+                <div class="row">
+                    <div class="card col-3 enemy bg-info" id="enemy-1">
+                        <img class="card-img-top hero-small"
+                            src="https://media1.tenor.com/images/1a64b6478237b189d0eef10ff5f2a412/tenor.gif?itemid=13187048"
+                            alt="Hero's image" id="enemy1-image">
+                        <p class="hero-text">Vegeta</p>
+                    </div>
+                    <div class="card col-3 enemy bg-info" id="enemy-2">
+                            <img class="card-img-top hero-small"
+                            src="https://media1.tenor.com/images/1a64b6478237b189d0eef10ff5f2a412/tenor.gif?itemid=13187048"
+                            alt="Hero's image" id="enemy1-image">
+                        <p class="hero-text">Vegeta</p>
+                    </div>
+                    <div class="card col-3 enemy bg-info" id="enemy-3">
+                            <img class="card-img-top hero-small"
+                            src="https://media1.tenor.com/images/1a64b6478237b189d0eef10ff5f2a412/tenor.gif?itemid=13187048"
+                            alt="Hero's image" id="enemy1-image">
+                        <p class="hero-text">Vegeta</p>
+                    </div>
+                    <div class="card col-3 enemy bg-info" id="enemy-4">
+                            <img class="card-img-top hero-small"
+                            src="https://media1.tenor.com/images/1a64b6478237b189d0eef10ff5f2a412/tenor.gif?itemid=13187048"
+                            alt="Hero's image" id="enemy1-image">
+                        <p class="hero-text">Vegeta</p>
+                    </div>
+                    <div class="card col-3 enemy bg-info" id="enemy-5">
+                            <img class="card-img-top hero-small"
+                            src="https://media1.tenor.com/images/1a64b6478237b189d0eef10ff5f2a412/tenor.gif?itemid=13187048"
+                            alt="Hero's image" id="enemy1-image">
+                        <p class="hero-text">Vegeta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-3"></div>
+            <div class="card col-6 bg-info"></div>
+            <div class="card col-3"></div>
+        </div>
+
+    </div>
+
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

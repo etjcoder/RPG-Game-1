@@ -1,0 +1,92 @@
+.jumbotron{
+    text-align: center;
+    color: white;
+}
+
+.card{
+    height: 300px;
+}
+
+#battleground {
+    height: 300px;
+}
+
+.battlecard {
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#heroes {
+    height: 500px;
+}
+
+#enemies {
+    height: 500px;
+}
+
+#hero-1 {
+    height: 200px;
+    margin: 10px;
+}
+#hero-2 {
+    height: 200px;
+    margin: 10px;
+}
+#hero-3 {
+    height: 200px;
+    margin: 10px;
+}
+#hero-4 {
+    height: 200px;
+    margin: 10px;
+}
+#hero-5 {
+    height: 200px;
+    margin: 10px;
+}
+
+#enemy-1 {
+    height: 200px;
+    margin: 10px;
+}
+#enemy-2 {
+    height: 200px;
+    margin: 10px;
+}
+#enemy-3 {
+    height: 200px;
+    margin: 10px;
+}
+#enemy-4 {
+    height: 200px;
+    margin: 10px;
+}
+#enemy-5 {
+    height: 200px;
+    margin: 10px;
+}
+
+#heroes-image{
+    height: 125px;
+    width: 125px;
+    justify-content: center;
+}
+
+#enemys-image{
+    height: 125px;
+    width: 125px;
+    justify-content: center;
+    margin-left: 25%
+}
+
+.hero-small{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.hero-text{
+    font-size: 20px;
+    text-align: center;
+}

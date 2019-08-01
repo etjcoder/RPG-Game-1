@@ -9,7 +9,7 @@ var Character3;
 var Character4;
 var Character5;
 
-//Create a Play Selection Container
+// Create a Play Selection Container
 
 // Create a box in HTML for each character including an image / sprite
 
